@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    gap: 25px;
+    background-color: #a8d0e6;
+    flex-direction: column;
+}
+
+.header-hunter-name{
+    align-self: center;
+}
+
+.header-job-title {
+    align-self: center;
+}
+
+ .ul-nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
