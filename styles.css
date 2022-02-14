@@ -37,24 +37,30 @@ a, a:hover, a:active, a:visited { color: white; }
 
 .meet-hunter-container {
     display: flex;
-    justify-content: center;
-    flex-flow: wrap;
+    /* flex-flow: wrap; */
+    /* row-gap: 50px; */
+   
 }
 
 .hunter-and-caitlin-picture-back {
     max-width: auto;
     max-height: 650px;
+    flex-basis: auto;
+    
 }
 
 .meet-hunter-text-top {
     font-size: 40px;
-    justify-content: stretch;
-    padding-left: 100px;
-    font-family: 'Roboto', sans-serif;
-    
+    padding-left: 250px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;    
 }
 
-/* .meet-hunter-text-bottom {
-    font-size: 85px;
-    padding-left: 250px;
-} */ 
+.meet-hunter-copy {
+    font-size: 18px;
+    margin-top: 0;
+    padding: 5px 30px;
+}
+
