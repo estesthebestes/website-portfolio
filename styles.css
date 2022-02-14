@@ -18,6 +18,15 @@
 
 a, a:hover, a:active, a:visited { color: white; }
 
+.body-no-overflow {
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.background-color-main {
+    background-color: #a8d0e6;
+}
+
 .hunter-name-and-occupation {
     text-align: center;
     background-color: #a8d0e6;
@@ -39,7 +48,8 @@ a, a:hover, a:active, a:visited { color: white; }
     display: flex;
     /* flex-flow: wrap; */
     /* row-gap: 50px; */
-   
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
 }
 
 .hunter-and-caitlin-picture-back {
@@ -51,16 +61,32 @@ a, a:hover, a:active, a:visited { color: white; }
 
 .meet-hunter-text-top {
     font-size: 40px;
-    padding-left: 250px;
-    padding-bottom: 10px;
+    padding-left: 180px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 150px;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;    
-}
+    justify-self: center;
+    color: #24305e;
+    font-family: 'Playfair Display', serif;
+}    
 
 .meet-hunter-copy {
     font-size: 18px;
     margin-top: 0;
     padding: 5px 30px;
+    padding-bottom: 300px;
+    background-color: #f76c6cd2;
+    flex-grow: auto;
+    color: #24305e;
+
 }
 
+
+/* .hr-index{
+    border: 10px solid #24305e; 
+    border-radius: 5px;
+    margin: 0;
+
+} */
