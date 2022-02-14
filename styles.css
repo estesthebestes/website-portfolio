@@ -1,9 +1,41 @@
-ul {
+.container{
+    display: flex; 
     list-style-type: none;
-    
+    justify-content: space-evenly;
+    background-color: #3d70b2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
 }
 
-.li-nav-bar {
-    display: inline;
+.li-remove-link-underline {
+    text-decoration: none;
 }
 
+a, a:hover, a:active, a:visited { color: white; }
+
+.hunter-name-and-occupation {
+    text-align: center;
+    background-color: #a8d0e6;
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.mission-statement {
+    text-align: center;
+    background-color: #a8d0e6;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+.hunter-and-caitlin-picture-back {
+    max-width: auto;
+    max-height: 650px;
+}
