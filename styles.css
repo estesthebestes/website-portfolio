@@ -35,7 +35,26 @@ a, a:hover, a:active, a:visited { color: white; }
     padding-bottom: 30px;
 }
 
+.meet-hunter-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
 .hunter-and-caitlin-picture-back {
     max-width: auto;
     max-height: 650px;
 }
+
+.meet-hunter-text-top {
+    font-size: 40px;
+    justify-content: stretch;
+    padding-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* .meet-hunter-text-bottom {
+    font-size: 85px;
+    padding-left: 250px;
+} */ 
